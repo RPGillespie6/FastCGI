@@ -29,6 +29,7 @@ For more detail regarding changes, please consult the cvs log available
 on http://fastcgi.com/.
 
 2.4.1
+-----
 
  *) Fix fcgi_streambuf::underflow() such that when there is no buffer
     the character isn't removed.  AIDA Shinra <shinra@j10n.org>
